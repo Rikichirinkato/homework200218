@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Poll</title>
+</head>
+<body>
+    <h1>Do You Like Coffee</h1>
+    <form method="POST" action="https://formspree.io/roman28krasko@gmail.com">
+        <label>Your gender:</label>
+            <label>Male<input type="radio" name="gender" value="male"/></label>
+            <label>Female<input type="radio" name="gender" value="female"/></label>
+            <label>Other<input type="radio" name="gender" value="other"/></label>
+        <br><br>
+        <label>What is you name: 
+            <input type="text" name="name"/>
+        </label><br><br>
+        <label>How Old are you?
+            <input type="number" name="age"/>
+        </label><br><br>
+        <label>What You prefer:</label>
+            <label>Coffee<input type="radio" name="kind" value="coffee"/></label>
+            <label>Tea<input type="radio" name="kind" value="tea"/></label>
+            <label>Water<input type="radio" name="kind" value="water"/></label>
+        <br><br>
+        <label>How many cups You drink per day:</label>
+            <label>One<input type="radio" name="how many caps" value="1"/></label>
+            <label>Two<input type="radio" name="how many caps" value="2"/></label>
+            <label>More<input type="text" name="how many caps" value="" placeholder="5"/></label>
+        <br><br>
+        <label>Do you smoke?
+            <input type="checkbox" name="smoke"/>
+        </label><br><br>
+        <input type="submit" value="Submit"/>
+    </form><br><br>
+    <a href="index.html">move back</a>
+</body>
+</html>
